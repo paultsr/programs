@@ -83,5 +83,6 @@ public class dateServerGUI77 extends JFrame implements ActionListener
 
    Output
    ------
+![Pic 1](http://paultsr.in/images/mannasim/dateServerGUI77.png)
 */
 

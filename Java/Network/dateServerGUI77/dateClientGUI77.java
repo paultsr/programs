@@ -83,4 +83,5 @@ public class dateClientGUI77 extends JFrame implements ActionListener
 
    Output
    ------
+![Pic 1](http://paultsr.in/images/mannasim/dateClientGUI77.png)
 */

@@ -27,7 +27,7 @@ public class dateServerGUI77 extends JFrame implements ActionListener
 		stop=new JButton("Stop");
 		stop.setMnemonic('S');
 		stop.addActionListener(this);
-		JPanel p=new JPanel(new GridLayout(5,1));
+		JPanel p=new JPanel(new GridLayout(5,1,7,7));
 		p.add(l1);
 		p.add(l2);
 		p.add(l3);

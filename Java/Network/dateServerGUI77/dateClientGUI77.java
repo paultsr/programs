@@ -32,7 +32,7 @@ public class dateClientGUI77 extends JFrame implements ActionListener
 		close=new JButton("Close");
 		close.setMnemonic('C');
 		close.addActionListener(this);
-		JPanel p=new JPanel(new GridLayout(7,1));
+		JPanel p=new JPanel(new GridLayout(7,1,7,7));
 		p.add(l1);
 		p.add(l2);
 		p.add(t1);

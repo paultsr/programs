@@ -9,7 +9,7 @@
 ![Pic 2](http://paultsr.in/images/caesarcipherGUI/caesarclient.png)
 
 
-* FILE NAME:DictServer35.java
+* PROGRAM : CEASAR CIPHER IMPLEMENTATION
 * 2010-2014 BATCH
 * PROGRAMMER:Nidhish P
 * JYOTHI ENGG. COLLEGE, THRISSUR

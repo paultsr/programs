@@ -13,7 +13,7 @@ scanf("%d",&n);
 for(i=1;i<=n;i++)
 {f=f*i;
 }
-printf("factorial=%d",f);
+printf("factorial of %d =%d",n,f);
 }
 
 /*

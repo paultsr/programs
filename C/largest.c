@@ -9,7 +9,7 @@ Date : 17/10/2012
 main()
 {
         int a,b,c,big;
-        printf("\nEnter 3 numbers: \n");
+        printf("\nEnter 3 numbers:");
         scanf("%d%d%d",&a,&b,&c);
          big = a > b ? ( a > c ? a : c) : (b > c ? b : c) ;
 	printf("\nThe biggest number is : %d", big);

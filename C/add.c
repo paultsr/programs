@@ -9,7 +9,7 @@ Date : 17/10/2012
 main()
 {
 int a,b,sum;
-printf("Enter two no.s");
+printf("Enter two numbers :");
 scanf("%d%d",&a,&b);
 sum=a+b;
 printf("sum=%d",sum);

@@ -5,31 +5,16 @@ File Name: largest.c
 Date : 17/10/2012
 */
 
+
 #include<stdio.h>
 main()
 {
-        int a,b,c;
-        printf("\nEnter 3 no.s");
+        int a,b,c,big;
+        printf("\nEnter 3 numbers:");
         scanf("%d%d%d",&a,&b,&c);
-        if(a>b)
-        { 
-	        if(a>c)
-                {
-                        printf("%d is largest",a);
-                }
-                else
-                {
-                        printf("%d is largest",c);
-                }
-        }
-        else if(b>c)
-        {
-                printf("%d is largest",b);
-        }
-        else
-        {
-                printf("%d is largest",c);
-        }
+         big = a > b ? ( a > c ? a : c) : (b > c ? b : c) ;
+	printf("\nThe biggest number is : %d", big);
+	
 }
 
 

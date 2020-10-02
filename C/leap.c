@@ -3,21 +3,16 @@
 main()
 {
         int y;
-        printf("enter the year");
+        printf("Enter the year : ");
         scanf("%d",&y);
-        if(y%400==0)
+        if(y%4==0)
         {
-                printf("it is a leap year");
+                printf("It is a leap year");
         }
-        else if((y%100!=0)&&(y%4==0))
-              {
-                   printf("it is a leap year");
-
-              }
-              else
-              {
-                printf("it is not a leap year");
-              }
+        else
+         {
+           printf("It is not a leap year");
+         }
 }
 
 /*
